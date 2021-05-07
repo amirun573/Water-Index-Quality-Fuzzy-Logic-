@@ -1,0 +1,307 @@
+Rule 1
+IF Dissolved Oxygen Saturation is Optimum
+AND Fecal Coliform is Safe
+AND pH is Neutral
+AND Biochemical Oxygen Demand is Good
+AND Nitrate is Safe
+THEN WQI is Excellent
+
+Rule 2
+IF Dissolved Oxygen Saturation is Optimum
+AND Fecal Coliform is Safe
+AND pH is Neutral
+AND Biochemical Oxygen Demand is Moderate
+AND Nitrate is Safe
+THEN WQI is Safe
+
+Rule 3
+IF Dissolved Oxygen Saturation is Optimum
+AND Fecal Coliform is Safe
+AND pH is Neutral
+AND Biochemical Oxygen Demand is polluted
+AND Nitrate is Safe
+THEN WQI is Safe
+
+Rule 4
+IF Dissolved Oxygen Saturation is Optimum
+AND Fecal Coliform is Safe
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is Good
+AND Nitrate is Safe
+THEN WQI is Excellent 
+
+Rule 5
+IF Dissolved Oxygen Saturation is Optimum
+AND Fecal Coliform is Safe
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is Moderate
+AND Nitrate is Safe
+THEN WQI is Safe
+
+Rule 6
+IF Dissolved Oxygen Saturation is Optimum
+AND Fecal Coliform is Safe
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is polluted
+AND Nitrate is Safe
+THEN WQI is Safe
+
+Rule 7
+IF Dissolved Oxygen Saturation is Dangerous
+AND Fecal Coliform is Safe
+AND pH is Neutral
+AND Biochemical Oxygen Demand is Good
+AND Nitrate is Safe
+THEN WQI is Moderate
+
+Rule 8
+IF Dissolved Oxygen Saturation is Dangerous
+AND Fecal Coliform is Safe
+AND pH is Neutral
+AND Biochemical Oxygen Demand is Moderate
+AND Nitrate is Safe
+THEN WQI is Moderate
+
+Rule 9
+IF Dissolved Oxygen Saturation is Dangerous
+AND Fecal Coliform is Safe
+AND pH is Neutral
+AND Biochemical Oxygen Demand is polluted
+AND Nitrate is Safe
+THEN WQI is Moderate
+
+Rule 10
+IF Dissolved Oxygen Saturation is Dangerous
+AND Fecal Coliform is Safe
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is Good
+AND Nitrate is Safe
+THEN WQI is Safe
+
+Rule 11
+IF Dissolved Oxygen Saturation is Dangerous
+AND Fecal Coliform is Safe
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is Moderate
+AND Nitrate is Safe
+THEN WQI is Moderate
+
+Rule 12
+IF Dissolved Oxygen Saturation is Dangerous
+AND Fecal Coliform is Safe
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is polluted
+AND Nitrate is Safe
+THEN WQI is Moderate
+
+Rule 13
+IF Dissolved Oxygen Saturation is Deadly
+AND Fecal Coliform is Safe
+AND pH is Neutral
+AND Biochemical Oxygen Demand is Good
+AND Nitrate is Safe
+THEN WQI is Moderate
+
+Rule 14
+IF Dissolved Oxygen Saturation is Deadly
+AND Fecal Coliform is Safe
+AND pH is Neutral
+AND Biochemical Oxygen Demand is Moderate
+AND Nitrate is Safe
+THEN WQI is Moderate
+
+Rule 15
+IF Dissolved Oxygen Saturation is Deadly
+AND Fecal Coliform is Safe
+AND pH is Neutral
+AND Biochemical Oxygen Demand is polluted
+AND Nitrate is Safe
+THEN WQI is Moderate
+
+Rule 16
+IF Dissolved Oxygen Saturation is Deadly
+AND Fecal Coliform is Safe
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is Good
+AND Nitrate is Safe
+THEN WQI is Safe
+
+Rule 17
+IF Dissolved Oxygen Saturation is Deadly
+AND Fecal Coliform is Safe
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is Moderate
+AND Nitrate is Safe
+THEN WQI is Moderate
+
+Rule 18
+IF Dissolved Oxygen Saturation is Deadly
+AND Fecal Coliform is Safe
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is polluted
+AND Nitrate is Safe
+THEN WQI is Moderate
+
+Rule 19
+IF Dissolved Oxygen Saturation is Optimum
+AND Fecal Coliform is Dangerous
+AND pH is Neutral
+AND Biochemical Oxygen Demand is Good
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 20
+IF Dissolved Oxygen Saturation is Optimum
+AND Fecal Coliform is Dangerous
+AND pH is Neutral
+AND Biochemical Oxygen Demand is Moderate
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 21
+IF Dissolved Oxygen Saturation is Optimum
+AND Fecal Coliform is Dangerous
+AND pH is Neutral
+AND Biochemical Oxygen Demand is polluted
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 22
+IF Dissolved Oxygen Saturation is Optimum
+AND Fecal Coliform is Dangerous
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is Good
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 23
+IF Dissolved Oxygen Saturation is Optimum
+AND Fecal Coliform is Dangerous
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is Moderate
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 24
+IF Dissolved Oxygen Saturation is Optimum
+AND Fecal Coliform is Dangerous
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is polluted
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 25
+IF Dissolved Oxygen Saturation is Dangerous
+AND Fecal Coliform is Dangerous
+AND pH is Neutral
+AND Biochemical Oxygen Demand is Good
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 26
+IF Dissolved Oxygen Saturation is Dangerous
+AND Fecal Coliform is Dangerous
+AND pH is Neutral
+AND Biochemical Oxygen Demand is Moderate
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 27
+IF Dissolved Oxygen Saturation is Dangerous
+AND Fecal Coliform is Dangerous
+AND pH is Neutral
+AND Biochemical Oxygen Demand is polluted
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 28
+IF Dissolved Oxygen Saturation is Dangerous
+AND Fecal Coliform is Dangerous
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is Good
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 29
+IF Dissolved Oxygen Saturation is Dangerous
+AND Fecal Coliform is Dangerous
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is Moderate
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 30
+IF Dissolved Oxygen Saturation is Dangerous
+AND Fecal Coliform is Dangerous
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is polluted
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 31
+IF Dissolved Oxygen Saturation is Deadly
+AND Fecal Coliform is Dangerous
+AND pH is Neutral
+AND Biochemical Oxygen Demand is Good
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 32
+IF Dissolved Oxygen Saturation is Deadly
+AND Fecal Coliform is Dangerous
+AND pH is Neutral
+AND Biochemical Oxygen Demand is Moderate
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 33
+IF Dissolved Oxygen Saturation is Deadly
+AND Fecal Coliform is Dangerous
+AND pH is Neutral
+AND Biochemical Oxygen Demand is polluted
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 34
+IF Dissolved Oxygen Saturation is Deadly
+AND Fecal Coliform is Dangerous
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is Good
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 35
+IF Dissolved Oxygen Saturation is Deadly
+AND Fecal Coliform is Dangerous
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is Moderate
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 36
+IF Dissolved Oxygen Saturation is Deadly
+AND Fecal Coliform is Dangerous
+AND pH is Alkaline
+AND Biochemical Oxygen Demand is polluted
+AND Nitrate is Safe
+THEN WQI is Dangerous
+
+Rule 37
+IF pH is Acidic
+AND Biochemical Oxygen Demand is polluted
+THEN WQI is Dangerous
+
+Rule 38
+IF pH is Acidic
+AND Fecal Coliform is Dangerous
+THEN WQI is Dangerous
+
+Rule 39
+IF pH is Acidic
+AND Dissolved Oxygen Saturation is Deadly
+THEN WQI is Dangerous
+
+Rule 40
+IF Nitrate is Dangerous
+OR pH is Acidic
+THEN WQI is Deadly
