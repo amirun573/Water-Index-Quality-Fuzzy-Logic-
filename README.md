@@ -11,3 +11,8 @@ There are 5 attributes that user needs to insert which are:
     d) BOD
     e) Nitrate
 
+UPDATE DOCKER
+
+1. Setup Docker By Running `docker build -t wqi .`
+2. Run application `docker run -p 8000:8000 wqi`
+
